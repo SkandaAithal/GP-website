@@ -1115,3 +1115,314 @@ span {
   background-color: #ffc451;
   color: black;
 }
+
+/* page 7 ends */
+
+/* page 8 stars */
+
+#contact {
+  width: 100%;
+  height: 140vh;
+}
+#contact .bigbox {
+  width: 88%;
+  height: 100%;
+  margin: 40px auto;
+  /* background-color: #ffc451; */
+}
+#contact .bigbox .header p {
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+#contact .bigbox .header div {
+  background-color: #ffc551bc;
+  border: none;
+  height: 1px;
+  width: 95px;
+  translate: 65px -7px;
+}
+#contact .bigbox .header h2 {
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  margin-top: 5px;
+}
+
+/* map starts */
+#contact .bigbox iframe {
+  width: 100%;
+  height: 200px;
+  margin-top: 30px;
+}
+/* map ends */
+
+/* form starts */
+
+.form {
+  width: 100%;
+  height: 270px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+.form .content {
+  height: 100%;
+  width: 32%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.form .content div {
+  color: #151515;
+}
+.form .content div h3 {
+  color: #151515;
+  translate: 48px -36px;
+  font-size: 20px;
+}
+.form .content div i {
+  background-color: #ffc451;
+  width: 35px;
+  height: 35px;
+  padding: 13px;
+  padding-bottom: 26px;
+  border-radius: 3px;
+}
+.form .content div p {
+  color: #807f7f;
+  font-weight: 100;
+  translate: 48px -31px;
+  font-size: 11px;
+}
+.form .content .first {
+  translate: 0px -70px;
+}
+
+.form .content .second {
+  translate: -54px -108px;
+}
+
+.form .content .third {
+  translate: -202px 16px;
+}
+.form .content div .fa-envelope-o {
+  padding-left: 10px;
+}
+.form form {
+  width: 67%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form form input::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  color: #807f7f;
+}
+.form form input {
+  width: 262.5px;
+  padding: 9px;
+  margin: 5px;
+  border: 1px solid #cbc9c94e;
+  border-radius: 3px;
+  outline: none;
+  font-size: 11px;
+  color: #5b5a5a;
+}
+.form form input:focus {
+  border: 0.5px solid #ffc451;
+}
+.form form .field2 {
+  width: 96.5%;
+  margin-top: 10px;
+}
+.form form textarea {
+  width: 96.5%;
+  outline: none;
+  border: 1px solid #cbc9c93c;
+  height: 100px;
+  margin-top: 10px;
+  font-size: 11px;
+  font-family: "Poppins", sans-serif;
+  padding: 9px;
+  color: #5b5a5a;
+  border-radius: 3px;
+}
+.form form textarea:focus {
+  border: 0.5px solid #ffc451;
+}
+.form form a {
+  background-color: #ffc451;
+  color: #151515;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 3px;
+  transition: all 0.3s;
+}
+.form form a:hover {
+  background-color: #ffc551d7;
+}
+/* form ends */
+
+/* page 8 ends */
+
+/* news letter */
+
+.news {
+  width: 100%;
+  height: 340px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+.news .news1 {
+  color: white;
+  width: 100%;
+  height: 76%;
+  background-color: #151515;
+  padding: 45px;
+  font-family: "Poppins", sans-serif;
+}
+.news .news1 .flex {
+  display: flex;
+}
+.news .news1 .card1 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.news .news1 .card1 p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.news .news1 .card1 h3 {
+  margin-bottom: 20px;
+}
+.news .news1 .card1 h3 span {
+  color: #ffc451;
+}
+.news .news1 .card1 .para2 {
+  margin-bottom: 20px;
+}
+.news .news1 .card1 span {
+  color: white;
+  position: relative;
+  bottom: 1.3px;
+}
+.news .news1 .card1 i {
+  background-color: #5c5b5b4f;
+  padding: 7px;
+  width: 27px;
+  height: 27px;
+  border-radius: 3px;
+  margin: 1.5px;
+  margin-top: 10px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.news .news1 .card1 i:hover {
+  background-color: #ffc451;
+  color: black;
+}
+.news .news1 .card2 {
+  height: 200px;
+  width: 125px;
+  font-size: 14.5px;
+  margin-left: 20px;
+}
+.news .news1 .card2 ul li {
+  list-style-type: none;
+  font-size: 11px;
+  margin-top: 15px;
+  margin-left: 6px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.news .news1 .card2 ul li:hover {
+  color: #ffc451;
+}
+.news .news1 .card2 ul li i {
+  font-size: 7px;
+  margin-right: 3px;
+  color: #ffc451;
+}
+/* card 4 */
+.news .news1 .card4 {
+  width: 278px;
+  height: 200px;
+  margin-left: 89px;
+  font-size: 14.5px;
+}
+.news .news1 .card4 p {
+  font-size: 11px;
+  margin: 20px 0px;
+  line-height: 17px;
+}
+.news .news1 .card4 div {
+  width: 266px;
+  height: 35px;
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  padding: 6px;
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.news .news1 .card4 div input {
+  width: 180px;
+  height: 24px;
+  border: none;
+  border-radius: 3px;
+}
+.news .news1 .card4 div .subscribe {
+  width: 75px;
+  height: 35px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ffc451;
+  color: #151515;
+  padding: 10px 8px;
+  font-size: 13px;
+}
+
+/* news 2 */
+
+.news .news2 {
+  width: 100%;
+  background-color: black;
+  height: 50%;
+  color: white;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding-top: 25px;
+  line-height: 23px;
+}
+.topbtn {
+  background-color: #ffc451;
+  width: 30px;
+  height: 30px;
+  padding-top: 6px;
+  padding-left: 11px;
+  color: black;
+  border-radius: 3px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.topbtn:hover {
+  background-color: #151515;
+  color: #ffc451;
+}
